@@ -87,7 +87,7 @@ category1 = Category.objects.get(name='Политика')
 category2 = Category.objects.get(name='Кино')
 
 --------------------6) Создать как минимум 4 комментария к разным объектам модели Post (в каждом объекте должен быть как минимум один комментарий).
-from .models import Comment, Post
+from News.models import Comment, Post
 from django.contrib.auth.models import User
 
 # Получить статью, к которой нужно добавить комментарий
